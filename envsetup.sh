@@ -1644,3 +1644,6 @@ addcompletions
 export ANDROID_BUILD_TOP=$(gettop)
 
 . $ANDROID_BUILD_TOP/vendor/lineage/build/envsetup.sh
+
+export MKE2FS_CONFIG="$(gettop)/system/extras/ext4_utils/mke2fs.conf"
+export JAVA_TOOL_OPTIONS=-Xmx4g

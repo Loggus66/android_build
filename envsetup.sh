@@ -1647,3 +1647,4 @@ export ANDROID_BUILD_TOP=$(gettop)
 
 export MKE2FS_CONFIG="$(gettop)/system/extras/ext4_utils/mke2fs.conf"
 export JAVA_TOOL_OPTIONS=-Xmx4g
+export ALLOW_NINJA_ENV=true
